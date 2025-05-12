@@ -1,7 +1,20 @@
 {
   "name": "material-dashboard-angular",
   "version": "2.8.0",
+  "private": true,
+  "description": "![Product Gif](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-dashboard-angular/material-dashboard-angular.gif)",
+  "homepage": "https://github.com/al-drew-c/material-dashboard-angular2#readme",
+  "bugs": {
+    "url": "https://github.com/al-drew-c/material-dashboard-angular2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/al-drew-c/material-dashboard-angular2.git"
+  },
   "license": "MIT",
+  "author": "",
+  "type": "commonjs",
+  "main": "karma.conf.js",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -11,11 +24,6 @@
     "e2e": "ng e2e",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && ng serve -o"
   },
-  "engines": {
-    "node": "6.11.1",
-    "npm": "3.10.9"
-  },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^14.2.0",
     "@angular/cdk": "^14.2.0",
@@ -74,5 +82,9 @@
     "protractor": "7.0.0",
     "ts-node": "~10.9.1",
     "typescript": "~4.7.2"
+  },
+  "engines": {
+    "node": "6.11.1",
+    "npm": "3.10.9"
   }
 }
